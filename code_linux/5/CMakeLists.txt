@@ -18,3 +18,7 @@ target_link_libraries(Test21 ${OPENCV_LIBRARIES})
 SET(SRC_LIST 25_ImageBlending.cpp)
 ADD_EXECUTABLE(Test25 ${SRC_LIST})
 target_link_libraries(Test25 ${OPENCV_LIBRARIES})
+
+SET(SRC_LIST 26_MultiChannelImageBlending.cpp)
+ADD_EXECUTABLE(Test26 ${SRC_LIST})
+target_link_libraries(Test26 ${OPENCV_LIBRARIES})
