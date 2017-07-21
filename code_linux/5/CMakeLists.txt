@@ -14,3 +14,7 @@ link_directories(${OPENCV_LIBRARY_DIRS})
 SET(SRC_LIST 21_UsePointerAccessPixel.cpp)
 ADD_EXECUTABLE(Test21 ${SRC_LIST})
 target_link_libraries(Test21 ${OPENCV_LIBRARIES})
+
+SET(SRC_LIST 25_ImageBlending.cpp)
+ADD_EXECUTABLE(Test25 ${SRC_LIST})
+target_link_libraries(Test25 ${OPENCV_LIBRARIES})
