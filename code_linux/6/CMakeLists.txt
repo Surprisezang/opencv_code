@@ -42,3 +42,7 @@ target_link_libraries(Test37 ${OPENCV_LIBRARIES})
 SET(SRC_LIST 40_dilate_And_erode.cpp)
 ADD_EXECUTABLE(Test40 ${SRC_LIST})
 target_link_libraries(Test40 ${OPENCV_LIBRARIES})
+
+SET(SRC_LIST 55_threshold.cpp)
+ADD_EXECUTABLE(Test55 ${SRC_LIST})
+target_link_libraries(Test55 ${OPENCV_LIBRARIES})
